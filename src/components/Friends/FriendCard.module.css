@@ -1,0 +1,35 @@
+.item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.indicator {
+    position: absolute;
+    left: 75px;
+    top: 30px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.online {
+
+    background-color: green;
+
+}
+
+.offline {
+
+    background-color: red;
+
+}
